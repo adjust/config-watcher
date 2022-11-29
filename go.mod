@@ -27,3 +27,5 @@ require (
 	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
+
+replace github.com/bubunyo/config-watcher => github.com/adjust/config-watcher 4cb5d2c
