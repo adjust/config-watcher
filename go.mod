@@ -1,8 +1,9 @@
-module github.com/bubunyo/config-watcher
+module github.com/adjust/config-watcher
 
 go 1.18
 
 require (
+	github.com/bubunyo/config-watcher v0.0.0-00010101000000-000000000000
 	github.com/hashicorp/consul/api v1.17.0
 	github.com/stretchr/testify v1.7.0
 	github.com/valyala/histogram v1.2.0
@@ -28,4 +29,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
 
-replace github.com/bubunyo/config-watcher => github.com/adjust/config-watcher 4cb5d2c
+replace github.com/bubunyo/config-watcher => github.com/adjust/config-watcher v0.0.0-20221128125713-4cb5d2ca144e
